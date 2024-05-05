@@ -134,3 +134,8 @@ stateDiagram-v2
     s4 --> s2: git add
     s2 --> s4: изменения
 ```
+### 3. Как читать git status
+Команда `git status` может показать только следущие состойния файлов
+* `staged`(`Changes to be committed` в выводе `git status`);
+* `modified` (`Changes not staged for commit`);
+* `untracked` (`Untracked files`).
